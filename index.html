@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flex-Task</title>
+    <link rel="stylesheet" href="main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <section class="left">
+        <header>
+          <div class="logo">
+            <img src="./images/Abb Business logo.png" alt="logo" />
+          </div>
+          <nav>
+            <li><a href="#">AZ</a></li>
+            <li><a href="#">EN</a></li>
+            <li><a href="#">RUS</a></li>
+          </nav>
+        </header>
+        <main>
+          <div class="main-section">
+            <div class="login">
+              <p class="login-title">
+                <span>ASAN imza</span>
+                <span>/ KOBIL OTP</span>
+              </p>
+              <form action="#" class="login-form">
+                <label for="login-label" class="asan-label"
+                  >ASAN İmza mobil nömrəsi</label
+                ><br />
+                <div class="telephone">
+                  <span class="span-phone">+994</span>
+                  <input
+                    type="tel"
+                    id="login-label"
+                    name="phone"
+                    pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                    required
+                  />
+                </div>
+                <br />
+                <label for="id-label">ASAN İmza istifadəçi ID-si</label><br />
+                <input type="text" id="id-label" class="asan-id" required /><br />
+                
+                <button class="davam-et">Davam et</button>
+                <p class="ve-ya">və ya</p>
+                <button class="qeydiyyat">Qeydiyyat</button>
+              </form>
+            </div>
+          </div>
+        </main>
+        <footer>
+          <img src="./images/asanImza.png" alt="asanImza" class="asanImza" />
+          <div class="footer-img">
+            <img
+              src="./images/Vector 1.png"
+              alt="vector"
+              style="display: block" 
+            />
+            <a href="#">Köhnə İB-ə keçid</a>
+            
+          </div>
+        </footer>
+      </section>
+      <section class="right"></section>
+    </div>
+  </body>
+</html>
